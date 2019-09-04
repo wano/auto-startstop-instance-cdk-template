@@ -95,7 +95,8 @@
 ```$xslt
 npm install -g aws-cdk
 cd ./auto_start_stop_instance_cdk
-npm install @aws-cdk/core @aws-cdk/aws-lambda @aws-cdk/aws-iam @aws-cdk/aws-events @aws-cdk/aws-events-targets
+npm install @aws-cdk/core 
+npm install @aws-cdk/aws-lambda @aws-cdk/aws-iam @aws-cdk/aws-events @aws-cdk/aws-events-targets
 npm run build
 export AWS_ACCESS_KEY_ID="xxxxxxxxxxx"
 export AWS_SECRET_ACCESS_KEY="xxxxxxxxxxx"
@@ -110,7 +111,7 @@ Following events already tested
 - Only EC2Instance start and not notice to slack
 ## Environment I developed in
 - MacOS Mojave version 10.14.6
-- Go 1.12.0
+- Go 1.12.4
 - TypeScript 3.6.2
 - CDK z1.6.0
 

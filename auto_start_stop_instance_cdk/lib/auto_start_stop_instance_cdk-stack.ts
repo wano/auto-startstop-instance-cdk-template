@@ -57,3 +57,4 @@ export class AutoStartStopInstanceCdkStack extends cdk.Stack {
 
   }
 }
+
