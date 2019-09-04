@@ -1,0 +1,18 @@
+{
+  "events": {
+    "cron": {
+      "start": "00 00 ? * MON-FRI *",
+      "stop": "00 11 ? * * *"
+    }
+  },
+  "targets": {
+    "ec2region": "your_region",
+    "instanceNames": ["your_instance_name_1","your_instance_name_ 2"],
+    "dbClusterIdentifies": ["your_cluster_name_1"],
+    "dbInstanceIdentifies": ["your_db_instance_name_1","your_db_instance_name_ 2"]
+  },
+  "slack": {
+    "webHookUrl":"https://hooks.slack.com/services/xxxxxxxxx/xxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx",
+    "channel":"xxxxxxxxxxxxxx"
+  }
+}
